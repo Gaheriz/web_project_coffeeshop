@@ -83,9 +83,9 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__video-caption">
-                <p>Receita Aeropress</p>
-                <p>~5 min</p>
+              <div class="recipes__video-captions">
+                <p class="recipes__video-caption">Receita Aeropress</p>
+                <p class="recipes__video-caption">~5 min</p>
               </div>
             </div>
             <div class="recipes__video-item">
@@ -97,14 +97,70 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__video-caption">
-                <p>Receita de Prensa Francesa</p>
-                <p>~15 min</p>
+              <div class="recipes__video-captions">
+                <p class="recipes__video-caption">Receita de Prensa Francesa</p>
+                <p class="recipes__video-caption">~15 min</p>
               </div>
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">
+                Nome*
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Nome"
+                  class="form__input"
+                />
+              </label>
+              <label class="form__label" for="number">
+                Número de convidados*
+                <input
+                  type="number"
+                  id="number"
+                  name="number"
+                  placeholder="1-8"
+                  class="form__input"
+                />
+              </label>
+              <label class="form__label" for="date">
+                Data e hora*
+                <input
+                  type="date"
+                  id="datetime-local"
+                  name="name"
+                  class="form__input"
+                />
+              </label>
+              <label class="form__label" for="email">
+                Seu e-mail*
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="email@email.com"
+                  class="form__input"
+                />
+              </label>
+              <button class="form__button" type="submit">
+                Reservar uma mesa
+              </button>
+              <label class="form__label form__label_checkbox">
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  class="form__checkbox"
+                  value="accept-terms"
+                />Eu concordo com os termos de uso
+              </label>
+            </fieldset>
+          </form>
+        </section>
       </main>
       <!--FIM DO CORPO-->
       <footer class="footer" id="footer"></footer>
