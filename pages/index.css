@@ -217,6 +217,11 @@
   justify-content: center;
 }
 
+.form {
+  display: flex;
+  justify-content: center;
+}
+
 .form__fieldset {
   display: flex;
   max-width: 385px;
