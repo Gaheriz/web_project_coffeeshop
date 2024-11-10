@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 
-.span-accent {
+.header__span-accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", sans-serif;
   font-style: italic;
